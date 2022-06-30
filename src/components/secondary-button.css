@@ -1,0 +1,26 @@
+.secondary-button-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.secondary-button-button {
+  color: var(--dl-color-purple-1001);
+  z-index: 100;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Palanquin Dark;
+  font-weight: 500;
+  padding-top: 12px;
+  border-width: 0px;
+  padding-left: 32px;
+  border-radius: var(--dl-radius-radius-radius6);
+  padding-right: 32px;
+  padding-bottom: 12px;
+  text-transform: none;
+  text-decoration: none;
+  background-color: var(--dl-color-purple-100);
+}
